@@ -16,6 +16,7 @@ class Phonebook_con extends CI_Controller{
   public function contact_validation(){
   	$this->form_validation->set_rules('name', 'Name', 'required');
   	$this->form_validation->set_rules('number', 'Number', 'required|is_unique[contact.contact_number]|min_length[14]|max_length[16]');
+  	$this->form_validation->set_rules('email', 'Email', 'valid_email');
   	$this->form_validation->set_message('is_unique', 'The given Number already exists.');
   	if ($this->form_validation->run()==FALSE) {
 	   $data['create']='create';
