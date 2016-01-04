@@ -1,6 +1,10 @@
 .pull-right{
+	font-family: 'Raleway', sans-serif;
 	margin-top: 150px;
 	margin-bottom: 10px;
+}
+table{
+	font-family: 'Raleway', sans-serif;
 }
 
  table thead{
@@ -10,14 +14,21 @@
  }
  table thead th{
  	text-align: center;
+
  }
+
  table tbody tr td .glyphicon-edit{
  	color:#003366;
  }
   table tbody td{
  	text-align: center;
  }
-
+ .edit_button{
+ 	padding-left: 5px;
+ }
+ .dlt_button{
+ 	padding-left: 5px;
+ }
  .create{
  	font-family: 'Raleway', sans-serif;
  	margin-top: 150px;
@@ -27,6 +38,9 @@
  .create input{
  	border: none;
  	height:50px;
+ }
+ .create button:hover{
+ 	background-color: #c46140;
  }
  .create button{
  	height: 50px;
