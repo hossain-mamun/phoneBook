@@ -40,16 +40,18 @@ table{
  	height:50px;
  }
  .create button:hover{
- 	background-color: #c46140;
+ 	background-color: #fa6788;
  }
  .create button{
  	height: 50px;
  	width: 300px;
- 	background-color: #c46170;
+ 	background-color: #fa6775;
  	margin-left: 90px;
  	margin-bottom: 30px;
  	font-size: 20px;
  	font-weight: bold;
+ 	border: ridge white;
+    border-width: 4px;
  }
  .validation_error{
  	color: red;
@@ -59,4 +61,28 @@ table{
  	font-size: 15px;
  	font-weight: bold;
 
+ }
+  .update{
+ 	font-family: 'Raleway', sans-serif;
+ 	margin-top: 150px;
+ 	background-color: #008080;
+ 	color: white;
+ }
+ .update input{
+ 	border: none;
+ 	height:50px;
+ }
+ .update button:hover{
+ 	background-color: #fa6788;
+ }
+ .update button{
+ 	height: 50px;
+ 	width: 300px;
+ 	background-color: #fa6775;
+ 	margin-left: 90px;
+ 	margin-bottom: 30px;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	border: ridge white;
+    border-width: 4px;
  }

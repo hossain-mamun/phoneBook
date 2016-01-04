@@ -22,7 +22,7 @@
 			<td><?php echo $contact->contact_number;?></td>
 			<td><?php echo $contact->contact_email;?></td>
 			<td>
-			<a href=""><span class="btn btn-default glyphicon glyphicon-edit"><span class='edit_button'>Edit</span></span></a>
+			<a href="<?php echo site_url();?>/phonebook_con/contact_edit/?var=<?php echo  $contact->contact_id;?>"><span class="btn btn-default glyphicon glyphicon-edit"><span class='edit_button'>Edit</span></span></a>
 			<a href="<?php echo site_url();?>/phonebook_con/contact_delete/?var=<?php echo  $contact->contact_id;?>"><span class="btn btn-danger glyphicon glyphicon-trash"><span class='dlt_button'>Delete</span></span></a>
 			</td>
 		</tr>

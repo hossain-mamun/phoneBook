@@ -27,6 +27,9 @@
               elseif (isset($create)) {
               	$this->load->view('contents/'.$create);
               }
+              elseif (isset($edit)) {
+              	$this->load->view('contents/'.$edit);
+              }
 
 			?>
 
