@@ -18,7 +18,7 @@
 		  </div>
 		  <div class="form-group">
 		    <label for="number">Number<span class="glyphicon glyphicon-asterisk"></span>:</label>
-		    <input type="text" class="form-control" id="number" name="number" placeholder="Country Code Must. Like BD(+88)" required>
+		    <input type="number" class="form-control" id="number" name="number" placeholder="Country Code Must. Like BD(88)" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="email">Email:</label>

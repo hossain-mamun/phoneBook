@@ -31,7 +31,7 @@ foreach ($particular_id_contents as $values) {
 		  </div>
 		  <div class="form-group">
 		    <label for="number">Number<span class="glyphicon glyphicon-asterisk"></span>:</label>
-		    <input type="text" class="form-control" id="number" name="newNumber" value="<?php echo $number?>">
+		    <input type="number" class="form-control" id="number" name="newNumber" value="<?php echo $number?>">
 		    <input type="hidden" class="form-control" id="number" name="id"  value="<?php echo $id;?>">
 		  </div>
 		  <div class="form-group">
