@@ -1,10 +1,20 @@
-.pull-right{
-	font-family: 'Raleway', sans-serif;
-	margin-top: 150px;
-	margin-bottom: 10px;
+.search{
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+margin-top: 150px;
+margin-bottom: 10px;
+width: 40%;
+}
+#searchButton{
+	display: inline-block;
 }
 table{
+font-family: 'Raleway', sans-serif;
+}
+
+.pull-right{
 	font-family: 'Raleway', sans-serif;
+
 }
 
  table thead{

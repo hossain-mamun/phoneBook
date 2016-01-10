@@ -56,5 +56,16 @@ class Phonebook_model extends CI_Model{
         $result=$this->db->update('contact', $data);
         return $result;
 	}
+
+	public function searchContact($search){
+
+		$this->db->like('contact_name',$search);
+		$this->db->select("*");
+		$this->db->from('contact');
+		$query=$this->db->get();
+		return $query->result();
+
+
+	}
 }
 ?>

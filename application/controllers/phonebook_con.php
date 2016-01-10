@@ -69,6 +69,18 @@ public function edit_validation(){
 	
 	
 }
+	public function searchContact(){
+		$search=$this->input->post('search');
+		$data['contact_details']=$this->phonebook_model->searchContact($search);
+		$data['title']='PhoneBook Home';
+		$data['contact_info']='table';
+		$this->load->view('contents/homepage',$data);
+	}
+
+	public function suggest(){
+		$word=$this->input->post('searchWordValue');
+		echo "Hello".$word;
+	}
 
 }
 
